@@ -35,9 +35,9 @@ TextButton.Text = "Enable"
 TextButton.TextColor3 = Color3.fromRGB(0, 0, 0)
 TextButton.TextSize = 14.000
 TextButton.MouseButton1Click:Connect(function()
-	game.Players.LocalPlayer.Character["Left Arm"]Position = {"-6.924, 3.832, 4.539"}
-	game.Players.LocalPlayer.Character["Right Arm"]Position = {"-3.924, 3.985, 4.539"}
-	game.Players.LocalPlayer.Character["Left Leg"]Position = {"-6.721, 1.941, 4.539"}
-	game.Players.LocalPlayer.Character["Right Leg"]Position = {"-4.236, 1.455, 4.539"}
+	game.Players.LocalPlayer.Character["Left Arm"].Position = {"-6.924,3.832,4.539"}
+	game.Players.LocalPlayer.Character["Right Arm"].Position = {"-3.924,3.985,4.539"}
+	game.Players.LocalPlayer.Character["Left Leg"].Position = {"-6.721,1.941,4.539"}
+	game.Players.LocalPlayer.Character["Right Leg"].Position = {"-4.236,1.455,4.539"}
 	game.Players.LocalPlayer.Character.Head.Transparency = 1.000
 end)
